@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Grouping",
+  "version": "1.0.0",
+  "description": "show a list of all open tabs",
+  "short_name": "List All Tabs",
+  "author": "Lior Shtivelman",
+  "permissions": [
+    "tabs",
+    "storage",
+    "tabGroups"
+  ],
+  "options_page": "options.html",
+  "action": {
+    "default_icon": "images/dark_version.png",
+    "default_popup": "index.html"
+  },
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Alt+Shift+U",
+        "linux": "Ctrl+Shift+U",
+        "windows": "Alt+Shift+U",
+        "mac": "Ctrl+Shift+U"
+      }
+    }
+  }
+}

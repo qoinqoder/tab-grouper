@@ -1,0 +1,76 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container .title {
+  background: #5c6bc0;
+  color: #fff;
+  font-weight: 700;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+input[type="checkbox"] {
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+}
+
+fieldset {
+  border: none;
+}
+
+.option {
+  margin: 10px 20px;
+  display: flex;
+  cursor: pointer;
+}
+
+.option label {
+  width: 100%;
+}
+
+.option .description {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.description .note {
+  font-weight: normal;
+  font-style: italic;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  bottom: 20px;
+  position: fixed;
+  right: 20px;
+}
+
+#closeButton {
+  margin-left: 30px;
+}
+
+.grayed-out {
+  color: #c0c0c0;
+}
+
+.fields-group label {
+    font-size: 18px;
+}
+
+.fields-group .dummy {
+  font-size: 30px;
+  color: yellow;
+  background: #000;
+}
+

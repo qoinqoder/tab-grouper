@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>List All Tabs Options</title>
+  <link rel="stylesheet" href="./css/options_style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="title">
+      List all tabs Extension options
+    </div>
+    <fieldset>
+      <div class="option">
+        <input type="checkbox" value="false" id="onlyCurrentWindow" />
+        <label for="onlyCurrentWindow" class="description">
+          Show only current active window
+          <span class="note">
+            (setting to true will show only the curent window, false will display a list of all open windows)
+          </span>
+        </label>
+      </div>
+      <div>
+        <fieldset class="fields-group">
+          <label>Theme</label>
+          <div class="option">
+            <input type="radio" value="light" name="theme" id="lightTheme"/>
+            <label for="lightTheme" class="description">
+              Light mode
+            </label>
+          </div>
+          <div class="option">
+            <input type="radio" value="dark" name="theme" id="darkTheme" />
+            <label for="darkTheme" class="description">
+              Dark mode (*recommended)
+            </label>
+          </div>
+        <div class="option">
+          <input type="radio" value="black" name="theme" id="blackTheme" />
+          <label for="blackTheme" class="description">
+              Pitch black
+            </label>
+        </div>
+        </fieldset>
+      </div>
+    </fieldset>
+
+    <div class="buttons-container">
+      <button id="closeButton">Close</button>
+    </div>
+  </div>
+
+  <script src="App/options.js"></script>
+</body>
+</html>
